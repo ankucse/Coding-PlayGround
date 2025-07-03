@@ -97,6 +97,6 @@ public class UserController {
         log.info("Received request to delete user with ID: {}", userId);
         userService.deleteUser(userId);
         log.info("User with ID: {} deleted successfully", userId);
-        return ResponseEntity.ok("User deleted successfully.");
+        return ResponseEntity.ok("User is successfully deleted.");
     }
 }
